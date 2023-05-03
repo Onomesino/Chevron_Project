@@ -1,0 +1,110 @@
+.class{
+    background-color: #00008B;
+    margin-top: -1.7rem;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    height: 2.8rem;  
+}
+#news{
+    color: #fff;
+    margin-left: 23rem;
+    padding-top: 1rem;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+#career{
+    margin-left: 29rem;
+    margin-top: -2.3rem;
+    color: #fff;  
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+#annual{
+    color: #fff;
+    margin-left: 80rem;
+    margin-top: -2.3rem;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+#corpot{
+    color: #fff;
+    margin-left: 88rem;
+    margin-top: -2.3rem;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+.first1{
+    margin-left: 33rem;
+    margin-top: 4rem;
+}
+.first2{
+    margin-left:41rem;
+    margin-top: -2.3rem;
+}
+.first3{
+    margin-left: 47rem;
+    margin-top: -2.3rem;
+}
+#image{
+    margin-left: 54rem;
+    margin-top: -10rem;
+    width: 5rem;
+}
+.h1{
+    margin-left: 62rem;
+    margin-top: -3.2rem;
+}
+.h2{
+    margin-left: 69rem;
+    margin-top: -2.3rem;
+}
+.h3{
+    margin-left: 75rem;
+    margin-top: -2.3rem;
+}
+img{
+    margin-top: 2rem;
+    width: 81rem;
+    margin-left: 20rem;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #00008B;
+    font-size: 3rem;
+}
+button{
+    margin-left: 56rem;
+    background-color: #0000CD;
+    height: 3rem;
+    width: 14rem;
+}
+h3{
+    color: #fff;
+    text-align: center;
+}
+.container{
+    background-color: #F5F5F5;
+    margin-top: 2rem;
+}
+#labour{
+    width: 33rem;
+    margin-top: 3rem;
+    margin-left: 25rem;
+}
+#mannual{
+    width: 33rem;
+    margin-top: -40rem;
+    margin-left: 60rem;
+    padding-top: -15rem;
+    height: 5sssss0rem;
+}
+.project{
+    color: #00008B;
+    margin-left: -40rem;
+}
+.mannual{
+    color: #00008B;
+    margin-left: 30rem;
+    
+}
