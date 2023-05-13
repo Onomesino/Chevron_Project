@@ -1,71 +1,76 @@
 .class{
-    background-color: #00008B;
-    margin-top: -1.7rem;
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
-    height: 2.8rem;  
+    background-color: #000080;  
+    margin-top: -1.4rem;
+    opacity: 3;
+    width: 100%;
+    height: 40px;
 }
 #news{
     color: #fff;
-    margin-left: 23rem;
-    padding-top: 1rem;
+    margin-left: 10rem;
+    padding-top: 1%;
+    font-size: 12px;
+    border-bottom:  #000080;
     font-family: Verdana, sans-serif;
     font-weight: 100;
 }
 #career{
-    margin-left: 29rem;
+    margin-left: 15rem;
     margin-top: -2.3rem;
     color: #fff;  
+    font-size: 12px;
     font-family: Verdana, sans-serif;
     font-weight: 100;
 }
 #annual{
     color: #fff;
-    margin-left: 80rem;
+    margin-left: 60rem;
     margin-top: -2.3rem;
+    font-size: 12px;
     font-family: Verdana, sans-serif;
     font-weight: 100;
 }
 #corpot{
     color: #fff;
-    margin-left: 88rem;
+    margin-left: 67rem;
     margin-top: -2.3rem;
+    font-size: 12px;
     font-family: Verdana, sans-serif;
     font-weight: 100;
 }
 .first1{
-    margin-left: 33rem;
-    margin-top: 4rem;
+    margin-left: 18rem;
+    margin-top: 2rem;
 }
 .first2{
-    margin-left:41rem;
+    margin-left:27rem;
     margin-top: -2.3rem;
 }
 .first3{
-    margin-left: 47rem;
+    margin-left: 33rem;
     margin-top: -2.3rem;
 }
 #image{
-    margin-left: 54rem;
+    margin-left: 39rem;
     margin-top: -10rem;
-    width: 5rem;
+    width: 3rem;
 }
 .h1{
-    margin-left: 62rem;
+    margin-left: 44rem;
     margin-top: -3.2rem;
 }
 .h2{
-    margin-left: 69rem;
+    margin-left: 51rem;
     margin-top: -2.3rem;
 }
 .h3{
-    margin-left: 75rem;
+    margin-left: 57rem;
     margin-top: -2.3rem;
 }
 img{
     margin-top: 2rem;
-    width: 81rem;
-    margin-left: 20rem;
+    width: 80%;
+    margin-left: 8rem;
 }
 h1{
     text-align: center;
@@ -74,7 +79,7 @@ h1{
     font-size: 3rem;
 }
 button{
-    margin-left: 56rem;
+    margin-left: 37rem;
     background-color: #0000CD;
     height: 3rem;
     width: 14rem;
@@ -87,64 +92,69 @@ h3{
     background-color: #F5F5F5;
     margin-top: 2rem;
     height: 100%;
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
-    position: relative;
 }
 #labour{
     width: 30rem;
     float: left;
     display: flex;
-    margin-left: 24rem;
+    margin-left: 13rem;
    transition: transform .1s;
-}
- #mannual{
-    width: 30rem;
-    height: 34rem;
-    float: right;
-    display: flex;
-    margin-right: 15rem;
-    
-    
 }
 .project{
     color: #000080;
-    float: left;
     font-family: Verdana, sans-serif;
     font-weight: 600;
+   padding-top: 37rem;
     font-size: 1.9rem;
-    margin-left: 24.7rem;
-    /* text-align: center; */
+    margin-right: 33rem;
 }
-
 #anchor{
     color: #0000CD;
     font-family: Verdana, sans-serif;
     font-weight: 600;
     float: left;
-    margin-right: 55rem;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-top: -0.3%;
+}
+#mannual{
+    width: 30rem;
+    height: 34rem;
+    float: right;
+    display: flex;
+    margin-right: 14rem;
+    margin-top: -41.4rem;
 }
 .mini{
     color: #000080;
     font-family: Verdana, sans-serif;
     font-weight: 600;
     font-size: 1.9rem;
-    margin-left: 25rem;
-    float: right;
-    margin-top: -7.7rem;
-    margin-right: 13.5%;
+    margin-left: 30rem;
+    margin-top: -6rem;
+   
 }
-
 #about{
     color: #0000CD;
     font-family: Verdana, sans-serif;
     font-weight: 600;
-    float: right;
-    margin-right: 22%;
-    margin-top: -1.4%;
+   margin-right:30%;
+   float: right;
+    margin-top: -0.1%;
 }
+#future{
+    color: #000080;
+    margin-top: 5rem;
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    margin-left: 4%;
+    margin-bottom: -25%;
+}
+video{
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 2%;
+} 
+
 a:link{
     text-decoration: unset;
 }
@@ -166,17 +176,4 @@ a:hover{
     text-decoration: unset;
     transform: scale(1.1);
     border-bottom:2px solid #ADD8E6;
-}
-#future{
-    color: #000080;
-    margin-top: 5rem;
-    font-family: Verdana, sans-serif;
-    font-size: 1.8rem;
-    float: left;
-    margin-left: 35%;
-    margin-bottom: -25%;
-}
-video{
-    /* margin-top: 2%; */
-    margin-left: 25%;
 }
