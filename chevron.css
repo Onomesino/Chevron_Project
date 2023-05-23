@@ -133,7 +133,8 @@ h3{
     margin-left: 30rem;
     margin-top: -6rem;
    
-}#about{
+}
+#about{
     color: #0000CD;
     font-family: Verdana, sans-serif;
     font-weight: 600;
@@ -155,26 +156,26 @@ video{
     margin-top: 10%;
 } 
 a:link{
-    text-decoration: unset;
+    text-decoration: none;
 }
 a:visited{
-    text-decoration:unset;
+    text-decoration:none;
 }
 a:active{
-    text-decoration: unset;
+    text-decoration: none;
 }   
 a:hover{
-    text-decoration:unset;
+    text-decoration:none;
 }
 #labour:hover, .project:hover, #anchor:hover{
-    text-decoration: unset;
+    text-decoration: underline #ADD8E6;
     transform: scale(1.1);
-    border-bottom:2px solid #ADD8E6;
+    /* border-bottom:2px solid; */
 }
 #mannual:hover, .mini:hover, #about:hover{
-    text-decoration: unset;
+    text-decoration: underline #ADD8E6;
     transform: scale(1.1);
-    border-bottom:2px solid #ADD8E6;
+    /* border-bottom:2px solid; */
 }
 #transcript{
     color: #0000CD;
@@ -187,7 +188,7 @@ section{
     background-color: #1AA7EC;
     height: 100mvh;
 }
-#news{
+#news2{
     color: #fff;
     font-family: Verdana, sans-serif;
     margin-left: 42%;
@@ -211,7 +212,8 @@ h4{
     font-size: 25px;
     margin-left: 30%;
     color: #fff;
-}p{
+}
+p{
     font-family: Verdana, sans-serif;
     padding-top: -2%;
     margin-left: 30%;
@@ -227,7 +229,6 @@ h4{
 }
 hr{
     width: 42%;
-    color: #000080;
 }
 div.link{
     text-decoration: none;
@@ -243,8 +244,8 @@ div:hover{
 }
 .section1:hover, hr:hover, h6:hover{
     background-color: #000080;
-   color: #fff;
-   height: 10%;
+    color: #fff;
+    height: 10%;
  }
  #see-butt{
     width: 10%;
