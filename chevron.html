@@ -1,107 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chevron.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chevron.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Chevron</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li>
+          <a class="active" href="#"><h5>newsroom</h5></a>
+        </li>
+        <li>
+          <a href="#"><h5>careers</h5></a>
+        </li>
+        <li>
+          <a href="#"><h5>annual report</h5></a>
+        </li>
+        <li>
+          <a href="#"><h5>corporate sustainability report</h5></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="dropdown" id="drop-down">
+      <h5 class="first1">project portfolio</h5>
+      <h5 class="first2">operation</h5>
+      <h5 class="first3">technology</h5>
+      <img src="image_video/chevron-logo.png" alt="logo" id="image" />
+      <h5 class="h1">sustainability</h5>
+      <h5 class="h2">investors</h5>
+      <h5 class="h3">about</h5>
+    </div>
+
+    <img src="image_video/chevron-carosel.jpeg" alt="carosel" />
+
+    <h1>
+      What you need to know about <br />
+      the annual report
+    </h1>
+    <button>
+      <h3>five key takeaways</h3>
+    </button>
+
+    <div class="container">
+      <img src="image_video/labour-project.png" alt="img" id="labour" />
+      <h3 class="project">
+        more land and trees added <br />
+        to carbon offsets project
+      </h3>
+      <img src="image_video/mannual.png" alt="img" id="mannual" />
+      <h3 class="mini">
+        mini ROV makes waves in <br />
+        subsea inspections
+      </h3>
+    </div>
 
     <div>
-        <div class="class">
-            <a href="">
-                <h5 id="news">newsroom</h5>
-                <h5 id="career">careers</h5>
-
-                <h5 id="annual">annual report</h5>
-                <h5 id="corpot">corporate sustainability report</h5>
-            </a>
-        </div>
-
-        <div class="dropdown" id="drop-down">
-            <h5 class="first1"> project portfolio</h5>
-            <h5 class="first2"> operation</h5>
-            <h5 class="first3"> technology</h5>
-            <img src="image_video/chevron-logo.png" alt="logo" id="image">
-            <h5 class="h1"> sustainability</h5>
-            <h5 class="h2"> investors</h5>
-            <h5 class="h3"> about</h5>
-        </div>
-
-        <img src="image_video/chevron-carosel.jpeg" alt="carosel">
-
-        <h1>What you need to know about <br> the annual report</h1>
-        <button>
-            <a href="">
-                <h3>five key takeaways</h3>
-            </a>
-        </button>
-
-        <div class="container">
-
-            <a href="">
-                <img src="image_video/labour-project.png" alt="img" id="labour">
-                <h3 class="project">more land and trees added <br> to carbon offsets project</h3>
-                <h5 id="anchor">learn more about the project ></h5>
-            </a>
-            <a href="">
-                <img src="image_video/mannual.png" alt="img" id="mannual">
-                <h3 class="mini">mini ROV makes waves in <br> subsea inspections</h3>
-                <h5 id="about">read about it ></h5>
-            </a>
-
-            <h3 id="future">the future of the energy is lower carbon,<br>it's only human</h3>
-
-            <!-- <video src="image_video/exploration _ chevron.mp4"></video> -->
-            <video width="1000" height="900" autoplay>
-                <source src="image_video/exploration _ chevron.mp4" type="video/mp4">
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
-            </video>
-            <h5 id="transcript">read the transcript </h5>
-        </div>
-
-        <section class="container-fluid">
-            <h2 id="news2">in the news</h2>
-            <div class="section1">
-                <h6>April 28,2023</h6>
-                <h4 class="first">Chevron announces first quarter 2023 results</h4>
-                <p class="para">Chevron Corporation (NYSE: CVX) today reported earning of $6.6billion ($3.46 <br> share
-                    - diluted) for first quarter 2023, compared with $6.3 billion ($3.22 per <br> share - diluted) in
-                    first quarter 2022.</p>
-                <hr>
-            </div>
-            <div class="section1">
-                <h6 class="13">April 13, 2023</h6>
-                <h4 class="first">Chevron and the angelicoussis group <br> announce ammonia carrier joint study <br>
-                    agreement</h4>
-                <p class="para">Chevron Corporation (NYSE: CVX), through its subsidiary Chevron Shipping <br> Company
-                    LLC, and the Angelicoussis Group, through its energy Transition <br> division, Green Ships,
-                    announced a joint Study Agreement (JSA) to explore how <br> tankers can be used to transport
-                    ammonia, a potential lower carbon marine fuel.</p>
-                <hr>
-            </div>
-            <div class="section1">
-                <h6 class="7">April 07, 2023</h6>
-                <h4 class="first">Chevron and JERA sign MOU to explore <br> carbon caputre and storage projects in <br>
-                    United States and Australia</h4>
-                <p class="para">Chevron New Energies and JERA Co. have signed an MOU for their collaboration <br> on
-                    carbon capture and storage projects in the United States and Australia.</p>
-                <hr>
-            </div>
-            <div class="section1">
-                <h6 class="6">March 06, 2023</h6>
-                <h4 class="first">bayou bend expands carbon capture project <br> to onshore southeast texas</h4>
-                <p class="para">Bayou Bend a carbon capture project in the Texas Gulf Coast, will expand its CO2 <br>
-                    storage footprint making it one of the largest CCUS projects in the U.S..</p>
-            </div>
-
-            <button id="see-butt">see all news</button>
-        </section>
+      <h3 id="future">
+        the future of the energy is lower carbon,<br />it's only human
+      </h3>
+      <video width="1000" height="900" autoplay>
+        <source src="image_video/exploration _ chevron.mp4" type="video/mp4" />
+      </video>
     </div>
-</body>
 
+    <section class="container-fluid">
+      <h2 id="news2">in the news</h2>
+      <div class="section1">
+        <h6>April 28,2023</h6>
+        <h4 class="first">Chevron announces first quarter 2023 results</h4>
+        <p class="para">
+          Chevron Corporation (NYSE: CVX) today reported earning of $6.6billion
+          ($3.46 <br />
+          share - diluted) for first quarter 2023, compared with $6.3 billion
+          ($3.22 per <br />
+          share - diluted) in first quarter 2022.
+        </p>
+        <hr />
+      </div>
+      <div class="section2">
+        <h6 class="13">April 13, 2023</h6>
+        <h4 class="first">
+          Chevron and the angelicoussis group <br />
+          announce ammonia carrier joint study <br />
+          agreement
+        </h4>
+        <p class="para">
+          Chevron Corporation (NYSE: CVX), through its subsidiary Chevron
+          Shipping <br />
+          Company LLC, and the Angelicoussis Group, through its energy
+          Transition <br />
+          division, Green Ships, announced a joint Study Agreement (JSA) to
+          explore how <br />
+          tankers can be used to transport ammonia, a potential lower carbon
+          marine fuel.
+        </p>
+        <hr />
+      </div>
+      <div class="section3">
+        <h6 class="7">April 07, 2023</h6>
+        <h4 class="first">
+          Chevron and JERA sign MOU to explore <br />
+          carbon caputre and storage projects in <br />
+          United States and Australia
+        </h4>
+        <p class="para">
+          Chevron New Energies and JERA Co. have signed an MOU for their
+          collaboration <br />
+          on carbon capture and storage projects in the United States and
+          Australia.
+        </p>
+        <hr />
+      </div>
+      <div class="section4">
+        <h6 class="6">March 06, 2023</h6>
+        <h4 class="first">
+          bayou bend expands carbon capture project <br />
+          to onshore southeast texas
+        </h4>
+        <p class="para">
+          Bayou Bend a carbon capture project in the Texas Gulf Coast, will
+          expand its CO2 <br />
+          storage footprint making it one of the largest CCUS projects in the
+          U.S..
+        </p>
+      </div>
+      <a href="https://www.chevron.com/newsroom">
+        <button id="see-butt">see all news</button>
+      </a>
+    </section>
+
+    <footer>
+      <h4 id="the">the</h4>
+      <h4 id="human">human</h4>
+      <h4 id="energy">energy</h4>
+      <h4 id="company">company</h4>
+      <img src="./image_video/chevron-logo.png" alt="logo" class="lastimg" />
+      <p id="footer-para">
+        <span
+          >Chevron has always put people at the center of the energy
+          conversation.</span
+        ><br />
+      </p>
+      <p id="well">
+        Because we understand that the well-being of people everywhere depends
+        on<br />
+      </p>
+      <p id="ever">
+        energy. Energy that is affordable, reliable and ever-cleaner.
+      </p>
+
+      <p class="h5">about chevron</p>
+      <a href="http://www.chevron.com/investors" class="chevron">investors</a>
+      <a href="https://www.chevron.com/newsroom" class="chevron1">newsroom</a>
+      <a href="https://careers.chevron.com/" class="chevron2">careers</a>
+      <a href="https://www.chevron.com/worldwide" class="chevron3">worldwide</a>
+      <a href="https://www.chevron.com/about/contact" class="chevron4"
+        >contact</a
+      >
+
+      <p class="copyright">
+        &copy; 2001 - 2023 Chevron Corporation. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
