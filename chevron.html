@@ -4,48 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="chevron.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
+    <link rel="stylesheet" type="text/css" href="chevron.css" />
+    <link rel="stylesheet" href="./all.css" />
+
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
     <title>Chevron</title>
   </head>
 
   <body>
     <nav>
+      <div class="navbar" id="myTopnav">
+        <div class="logo">
+          <a href="#home" class="active">Chevron</a>
+        </div>
+        <ul class="links">
+          <li>
+            <a href="https://www.chevron.com/newsroom">Newsroom</a>
+          </li>
+          <li>
+            <a href="https://www.chevron.com/annual-report">Annual Report</a>
+          </li>
+          <li>
+            <a href="https://careers.chevron.com/">Careers</a>
+          </li>
+          <li>
+            <a href="https://www.chevron.com/about/contact">Contact</a>
+          </li>
+        </ul>
+
+        <div class="toggle_btn">
+          <input type="checkbox" class="toggle_input" id="toggle" />
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <!-- <i class="fas fa-bars"></i> -->
+            <label for="toggle" class="icon"><i class="fas fa-bars"></i></label>
+          </a>
+        </div>
+        <!-- <div class="toggle-container">
+          <input type="checkbox" class="toggle_btn" id="toggle" />
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>
+          <label for="toggle" class="icon"><i class="fa fa-bars"></i></label>
+        </div> -->
+      </div>
+    </nav>
+    <!-- <nav>
       <div class="navbar">
         <div class="logo">
           <a href="#"> Chevron </a>
         </div>
         <ul class="links">
           <li>
-            <a href="newsroom">newsroom</a>
+            <a href="https://www.chevron.com/newsroom">Newsroom</a>
           </li>
           <li>
-            <a href="careers">careers</a>
+            <a href="https://careers.chevron.com/">Careers</a>
           </li>
           <li>
-            <a href="annual report">annual report</a>
+            <a href="https://www.chevron.com/annual-report">Annual Report</a>
           </li>
           <li>
-            <a href="corporate sustainability report"
-              >corporate sustainability report</a
-            >
+            <a href="https://www.chevron.com/about/contact">Contact</a>
           </li>
         </ul>
         <div class="toggle_btn">
-          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-bars link"></i>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <div class="dropdown">
       <h5 class="first1">project portfolio</h5>
@@ -67,33 +99,43 @@
       <h3>five key takeaways</h3>
     </button>
 
-    <div class="container">
-      <img src="image_video/labour-project.png" alt="img" id="labour" />
-      <h3 class="project">
-        more land and trees added <br />
-        to carbon offsets project
-      </h3>
-      <img src="image_video/mannual.png" alt="img" id="mannual" />
-      <h3 class="mini">
-        mini ROV makes waves in <br />
-        subsea inspections
-      </h3>
-    </div>
+    <section class="table">
+      <table>
+        <tr>
+          <th>
+            <img src="image_video/labour-project.png" alt="img" id="labour" />
+          </th>
+          <td>
+            <img src="image_video/mannual.png" alt="img" id="mannual" />
+          </td>
+        </tr>
+        <tr>
+          <th class="project">
+            more land and trees added <br />
+            to carbon offsets project
+          </th>
+          <td class="waves">
+            mini ROV makes waves in <br />
+            subsea inspections
+          </td>
+        </tr>
+      </table>
+    </section>
 
     <div>
       <h3 id="future">
         the future of the energy is lower carbon,<br />it's only human
       </h3>
-      <video width="1000" height="900" autoplay>
+      <video height="900" autoplay muted playsinline>
         <source src="image_video/exploration _ chevron.mp4" type="video/mp4" />
       </video>
     </div>
 
     <section class="container-fluid">
       <h2 id="news2">in the news</h2>
-      <div class="section1">
+      <div class="section">
         <h6>April 28,2023</h6>
-        <h4 class="first">Chevron announces first quarter 2023 results</h4>
+        <h4>Chevron announces first quarter 2023 results</h4>
         <p class="para">
           Chevron Corporation (NYSE: CVX) today reported earning of $6.6billion
           ($3.46 <br />
@@ -103,9 +145,9 @@
         </p>
         <hr />
       </div>
-      <div class="section2">
-        <h6 class="13">April 13, 2023</h6>
-        <h4 class="first">
+      <div class="section">
+        <h6>April 13, 2023</h6>
+        <h4>
           Chevron and the angelicoussis group <br />
           announce ammonia carrier joint study <br />
           agreement
@@ -122,9 +164,9 @@
         </p>
         <hr />
       </div>
-      <div class="section3">
-        <h6 class="7">April 07, 2023</h6>
-        <h4 class="first">
+      <div class="section">
+        <h6>April 07, 2023</h6>
+        <h4>
           Chevron and JERA sign MOU to explore <br />
           carbon caputre and storage projects in <br />
           United States and Australia
@@ -137,9 +179,9 @@
         </p>
         <hr />
       </div>
-      <div class="section4">
-        <h6 class="6">March 06, 2023</h6>
-        <h4 class="first">
+      <div class="section">
+        <h6>March 06, 2023</h6>
+        <h4>
           bayou bend expands carbon capture project <br />
           to onshore southeast texas
         </h4>
@@ -156,37 +198,44 @@
     </section>
 
     <footer>
-      <h4 id="the">the</h4>
-      <h4 id="human">human</h4>
-      <h4 id="energy">energy</h4>
-      <h4 id="company">company</h4>
-      <img src="./image_video/chevron-logo.png" alt="logo" class="lastimg" />
+      <div class="h4s">
+        <h4 id="the">the</h4>
+        <h4 id="human">human</h4>
+        <h4 id="energy">energy</h4>
+        <h4 id="company">company</h4>
+        <img src="./image_video/chevron-logo.png" alt="logo" class="lastimg" />
+      </div>
+
       <p id="footer-para">
-        <span
-          >Chevron has always put people at the center of the energy
-          conversation.</span
-        ><br />
-      </p>
-      <p id="well">
-        Because we understand that the well-being of people everywhere depends
-        on<br />
-      </p>
-      <p id="ever">
-        energy. Energy that is affordable, reliable and ever-cleaner.
+        Chevron has always put people at the center of the energy
+        conversation.<br />Because we understand that the well-being of people
+        everywhere depends on<br />energy. Energy that is affordable, reliable
+        and ever-cleaner.
       </p>
 
-      <p class="h5">about chevron</p>
+      <!-- <p class="h5">about chevron</p>
       <a href="http://www.chevron.com/investors" class="chevron">investors</a>
       <a href="https://www.chevron.com/newsroom" class="chevron1">newsroom</a>
       <a href="https://careers.chevron.com/" class="chevron2">careers</a>
       <a href="https://www.chevron.com/worldwide" class="chevron3">worldwide</a>
       <a href="https://www.chevron.com/about/contact" class="chevron4"
         >contact</a
-      >
+      > -->
 
       <p class="copyright">
         &copy; 2001 - 2023 Chevron Corporation. All rights reserved.
       </p>
     </footer>
+
+    <script>
+      function myFunction() {
+        var navbar = document.getElementById("myTopnav");
+        if (navbar.className === "navbar") {
+          navbar.className += " active";
+        } else {
+          navbar.className = "navbar";
+        }
+      }
+    </script>
   </body>
 </html>
